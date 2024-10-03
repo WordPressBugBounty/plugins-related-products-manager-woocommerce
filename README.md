@@ -1,0 +1,1 @@
+# plugins-related-products-manager-woocommerce
