@@ -2,8 +2,8 @@
 Contributors: prowcplugins
 Tags: woocommerce, related products, related, products, manager, woo commerce
 Requires at least: 4.8
-Tested up to: 6.7
-Stable tag: 1.6.1
+Tested up to: 6.8
+Stable tag: 1.6.2
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -11,13 +11,13 @@ The plugin lets you customize the associated products in WooCommerce. You can ch
 
 == Description ==
 
-Related Products Manager for WooCommerce plugin lets you customize the associated products in WooCommerce.
+Related Products Manager for WooCommerce Plugin lets you customize the associated products in WooCommerce.
 
-You can change displayed WooCommerce related products number, columns, order, relate by tag, category, product attribute. You may need to clear all product transients to immediately see the front-end results after changing the plugin's settings. Alternatively, you can update each product individually to remove its transients.
+You can change the displayed WooCommerce related products number, columns, order, and relate by tag, category, or product attribute. You may need to clear all product transients to immediately see the front-end results after changing the plugin’s settings. Alternatively, you can update each product individually to remove its transients.
 
-### Where Is the Related Products Manager for WooCommerce Plugin Useful?
+### Where is the Related Products Manager for WooCommerce Plugin Useful?
 
-"Related Products Manager for WooCommerce" plugin is helpful for all WordPress websites. Below is one small list to start using the "Related Products Manager for WooCommerce" Plugin. 
+The "Related Products Manager for WooCommerce plugin" is helpful for all WordPress websites. Below is one small list of websites where you can start using the "Related Products Manager for WooCommerce plugin":
 
 * E-commerce Website
 * Fashion Product Website
@@ -26,6 +26,8 @@ You can change displayed WooCommerce related products number, columns, order, re
 * Restaurant Related Website
 
 ### What Makes the Related Products Manager for WooCommerce Outstanding? 
+
+The Related Products Manager for WooCommerce plugin offers several outstanding features:
 
 * Easy Installation and Setup
 * No Coding Skill Required
@@ -180,6 +182,11 @@ We provide support through [WordPress forums](https://wordpress.org/support/plug
 6. Front-end View
 
 == Changelog ==
+
+= 1.6.2 =
+Release Date: April 15th, 2025
+
+* WP tested up to: 6.8
 
 = 1.6.1 =
 Release Date: November 14th, 2024
