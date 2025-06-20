@@ -6,7 +6,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	die( '-1' );
 }
 function related_product_manager_shortcode($atts, $content = null, $shortcode_handle = ' ') {
-
+	global $post_title_html_tag;
     $default_atts = array(
         'rpmw_columns' => 3,
         'rpmw_number_of_product' => 6,
@@ -160,7 +160,11 @@ function related_product_manager_shortcode($atts, $content = null, $shortcode_ha
     $the_query = new \WP_Query($args);   
     if ( $the_query->have_posts() ) {
         if ($rpmw_show_heading == 'true') {
-            $tag = $rpmw_heading_html_tag;?>
+            $tag = $rpmw_heading_html_tag;
+			if ( ! in_array( strtolower( $tag ), $post_title_html_tag ) ) {
+				$tag = 'h2';
+			}
+			?>
             <<?php echo esc_attr($tag); ?> class="related-product-heading" style="color: <?php echo esc_attr($rpmw_heading_color); ?>; text-align: <?php echo esc_attr($rpmw_heading_aligment); ?>; margin-bottom: <?php echo esc_attr($rpmw_heading_spacing); ?>;">
             <?php echo esc_html($rpmw_heading ?: __('Related Products', 'related-products-manager-woocommerce')); ?>
             </<?php echo esc_attr($tag); ?>>
@@ -378,6 +382,7 @@ $rpmw_columns = array(
 /*
  * Title HTML Tag
  */
+global $post_title_html_tag;
 $post_title_html_tag = array(
     __('H1', 'related-products-manager-woocommerce') => 'h1',
     __('H2', 'related-products-manager-woocommerce') => 'h2',

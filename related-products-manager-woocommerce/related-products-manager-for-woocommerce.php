@@ -3,13 +3,13 @@
 Plugin Name: Related Products Manager for WooCommerce
 Plugin URI: https://prowcplugins.com/downloads/related-products-manager-for-woocommerce/
 Description: Manage related products in WooCommerce, beautifully.
-Version: 1.6.2
+Version: 1.6.3
 Author: ProWCPlugins
 Author URI: https://prowcplugins.com
 Text Domain: related-products-manager-woocommerce
 Domain Path: /langs
 Copyright: � 2025 ProWCPlugins.com
-WC tested up to: 9.8.1
+WC tested up to: 9.9.4
 License: GNU General Public License v3.0
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 */
@@ -37,7 +37,7 @@ if ( ! class_exists( 'ProWC_Related_Products_Manager' ) ) :
 		 * @var   string
 		 * @since 1.0.0
 		 */
-		public $version = '1.6.2';
+		public $version = '1.6.3';
 
 		/**
 		 * @var   ProWC_Related_Products_Manager The single instance of the class
