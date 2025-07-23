@@ -3,7 +3,7 @@ Contributors: prowcplugins
 Tags: woocommerce, related products, related, products, manager, woo commerce
 Requires at least: 4.8
 Tested up to: 6.8.1
-Stable tag: 1.6.3
+Stable tag: 1.6.4
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -182,6 +182,11 @@ We provide support through [WordPress forums](https://wordpress.org/support/plug
 6. Front-end View
 
 == Changelog ==
+
+= 1.6.4 =
+Release Date: July 23th, 2025
+
+* WC tested up to: 10.0.2
 
 = 1.6.3 =
 Release Date: June 19th, 2025
